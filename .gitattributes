@@ -1,0 +1,16 @@
+# Normalize line endings for everyone, regardless of local git config.
+* text=auto eol=lf
+
+*.rs text diff=rust
+*.toml text
+*.md text
+*.sh text eol=lf
+
+# Cargo.lock is generated but should still diff as text, not be treated
+# as binary noise in PRs.
+Cargo.lock text -diff
+
+# Binary / generated artifacts — don't try to diff or merge these.
+*.wasm binary
+*.png binary
+*.svg binary -text
