@@ -1,0 +1,13 @@
+StellarExpress — escrow contract
+Copyright (c) 2026 The StellarExpress Authors
+
+This product includes software developed as part of the StellarExpress
+platform. See LICENSE for the full MIT license text.
+
+This software depends on soroban-sdk (https://github.com/stellar/rs-soroban-sdk)
+and, transitively, the crates locked in Cargo.lock — each retains its
+own license (predominantly MIT and Apache-2.0; see deny.toml for the
+full allow-list this project checks against with `cargo deny check`).
+No warranty is made regarding third-party code; consult each
+dependency's own repository for its license text and copyright
+holders.
