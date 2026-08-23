@@ -1,6 +1,10 @@
 /target
-soroban/target
-.contract-ids.json
 **/*.rs.bk
+Cargo.lock.bak
+test_snapshots/
+.soroban
+.stellar
+*.wasm
 .env
 .DS_Store
+.contract-id.*
