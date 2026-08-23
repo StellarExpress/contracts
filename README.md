@@ -1,4 +1,4 @@
-**StellarExpress — Contracts**
+# StellarExpress Contracts
 
 Soroban smart contracts powering **StellarExpress**, a logistics platform
 built on Stellar. Ship food, packages, and general goods with a payment
