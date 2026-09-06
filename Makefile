@@ -1,3 +1,4 @@
+# Makefile.
 .PHONY: build test fmt fmt-check lint wasm deploy clean
 
 # Native build — fastest feedback loop, mirrors `cargo build --workspace`
