@@ -1,3 +1,4 @@
+# Rust toolchain configuration.
 [toolchain]
 channel = "stable"
 targets = ["wasm32v1-none"]
